@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* App styles */
+.App {
+  text-align: center;
+}
+
+
+
+.App{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App__notes-input {
+  outline: none;
+  border: none;
+  padding: .3em 2em;
+  border-radius: 20px;
+}
+
+.App__button {
+ background: #3a6aca;
+ color: white;
+ padding: 1em 2em;
+ margin: .3rem 0;
+}
+
+
+/* Notes styles */
+
+.Note-list {
+  padding: 0;
+  margin: 1em 0 0 0; 
+}
